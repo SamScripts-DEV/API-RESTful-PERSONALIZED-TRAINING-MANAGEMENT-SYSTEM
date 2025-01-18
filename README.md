@@ -71,7 +71,7 @@ Este backend es parte de un sistema personalizado de gestión de entrenamiento f
   - **Descripción:** Permite registrar un nuevo usuario en el sistema.
   - **Campos requeridos:**
     - **name** (String): Nombre del usuario.
-    - **surname** (String): Apellido del usuario.
+    - **lastname** (String): Apellido del usuario.
     - **email** (String): Correo electrónico del usuario. Este se utiliza para la validación.
     - **password** (String): Contraseña del usuario, que debe tener al menos 8 caracteres, un caracter especial, un número, una mayúscula y una minúscula.
     - **role** (String): Rol del usuario (por defecto es `cliente` si no se especifica). Opciones: `cliente`, `entrenador`, `administrador`.
@@ -80,7 +80,7 @@ Este backend es parte de un sistema personalizado de gestión de entrenamiento f
   ```json
   {
     "name": "Juan",
-    "surname": "Pérez",
+    "lastname": "Pérez",
     "email": "juan.perez@example.com",
     "password": "12345678",
     "role": "cliente"
