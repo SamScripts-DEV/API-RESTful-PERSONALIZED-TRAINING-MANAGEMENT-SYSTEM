@@ -13,7 +13,7 @@ Breve descripción del proyecto y su propósito.
 1. Clona el repositorio:
    \`\`\`bash
    git clone https://github.com/tu-usuario/tu-proyecto.git
-   \`\`\`
+   
 
 2. Navega al directorio del proyecto:
    \`\`\`bash
